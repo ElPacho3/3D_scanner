@@ -11,7 +11,7 @@ Distance measurements are converted into X, Y and Z coordinates and saved as a p
 * SSD1306 OLED display
 * MicroSD card module
 
-# Usage
+## Usage
 1. Connect all hardware components.
 2. Upload the firmware to the ESP32.
 3. Insert a microSD card.
@@ -19,7 +19,7 @@ Distance measurements are converted into X, Y and Z coordinates and saved as a p
 5. Start scanning from the OLED menu.
 6. Retrieve the generated `.txt` file containing the point cloud.
 
-# Known Limitations & Future Improvements
+## Known Limitations & Future Improvements
 The current prototype has several accuracy issues that could be addressed in future iterations:
 
 - Sensor field of view: The VL53L1X has a relatively wide FoV, which causes it to pick up reflections from nearby points
