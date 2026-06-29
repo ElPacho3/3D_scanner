@@ -3,7 +3,7 @@ A simple 3D laser scanner based on the ESP32 microcontroller and the VL53L1X Tim
 The scanner rotates the object on a stepper-driven turntable while moving the sensor along the Z-axis. 
 Distance measurements are converted into X, Y and Z coordinates and saved as a point cloud on a microSD card.
 
-# Hardware
+## Hardware
 * ESP32 DevKit
 * VL53L1X ToF sensor
 * 2 × 28BYJ-48 stepper motors
